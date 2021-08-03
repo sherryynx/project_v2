@@ -1,0 +1,71 @@
+@import "footer.css";
+@import "body.css";
+@import "header.css";
+
+.container2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+/* css for title */
+.about_section{
+  width: 80%;
+  margin: 10px auto;
+}
+.about_header{
+  width: 100%;
+}
+.about_line{
+  width: 90px;
+  height: 2px;
+  background-color: #81d8d0;
+  margin-bottom: 20px;
+}
+
+/* css for my information */
+.my_inro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px auto 40px auto;
+  padding: 20px auto;
+  width: 80%;
+}
+
+.about_card{
+  width: 40%;
+  height: 600px;
+  margin: 10px auto;
+  background-color: #f9f9f9;
+  border-radius: 0 0 15px 15px;
+}
+
+.about_image{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.info_type{
+  color: #81d8d0;
+  padding: 0 20px;
+}
+
+.info_detail{
+  padding: 0 20px;
+}
+
+/* css for media screen */
+@media screen and (max-width:900px) {
+  .about_section{
+    flex-direction: column;
+  }
+  
+  .about_card{
+    width: 70%;
+  }
+}
